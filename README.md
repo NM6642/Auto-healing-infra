@@ -46,7 +46,7 @@ CloudWatch alarm that detects low CPU utilization and triggers SNS + Lambda.
 ---
 
 ### 4. Instance Stopped (Before Auto-Heal)
-When CPU utilization drops, the CloudWatch alarm triggers — the instance enters the stopped state.
+When CPU utilization drops, the CloudWatch alarm triggers the instance enters the stopped state.
 
 ![Instance Stopped](instance_stop.png)
 
