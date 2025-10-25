@@ -1,0 +1,16 @@
+#main tf file 
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+
+  required_version = ">= 1.3.0"
+}
+
+provider "aws" {
+  region = "eu-north-1" # change if you’re using another AWS region
+}
